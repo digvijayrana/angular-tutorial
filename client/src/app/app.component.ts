@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'client';
+  email:String | undefined 
   parentMessage: String = "parent to child"
   receivedMessage($event: String){
 
     console.log($event)
   }
+
+ 
 }
